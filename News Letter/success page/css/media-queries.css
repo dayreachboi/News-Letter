@@ -1,0 +1,37 @@
+@media only screen and (max-width: 480px) {
+  body {
+    align-items: start;
+    background: none;
+    justify-content: center;
+    
+  }
+  main {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    padding: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  button {
+    margin-left: 30px;
+    width: 310px;
+    height: 50px;
+  }
+  .para {
+    font-size: 45px;
+  }
+  .par {
+    font-size: 45px;
+  }
+  .note {
+    font-size: 16px;
+    padding-bottom: 260px;
+  }
+}
